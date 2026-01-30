@@ -1,0 +1,26 @@
+{
+  "name": "aws-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Somesh520/aws.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Somesh520/aws/issues"
+  },
+  "homepage": "https://github.com/Somesh520/aws#readme",
+  "dependencies": {
+    "axios": "^1.13.4",
+    "express": "^5.2.1"
+  }
+}
