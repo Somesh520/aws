@@ -5,7 +5,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-  res.status(200).send({ message: 'Hello, World!' });
+  res.status(200).send({ message: 'Hello, World! from ec2 ' });
 });
 
 app.get('/data',async(req,res)=>{
